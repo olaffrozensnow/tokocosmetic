@@ -1,0 +1,204 @@
+
+
+    .navbar {
+      position: absolute;   
+      top: 20px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+      z-index: 1000;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      background: #fff6e6;
+      padding: 10px 25px;
+      margin-left: 35%;
+      border-radius: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .navmain.navbar {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      background: transparent;
+      z-index: 1000;
+
+    }
+
+    .login {
+      position: absolute;
+      right: 60px;
+      top: 25px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+    }
+
+    .carousel.slide{
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+    }
+
+    .carouselimg{
+      border-image: 20px;
+    }
+    /* .bg-slide {
+      height: 100vh;              
+      background-size: cover;    
+      background-position: top center;
+      background-repeat: no-repeat;
+    } */
+  
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: white;
+            /* --primary-dark: #4f46e5;
+            --secondary: #10b981;
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --gray: #6b7280; */
+        }
+
+        /* body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+        } */
+
+        /* Animation keyframes */
+        /* @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        } */
+      
+        /* Features */
+        .features {
+            padding: 6rem 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: var(--dark);
+        }
+
+        .features-grid {
+            display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1.5rem; /* jarak antar kartu */
+    justify-content: center; /* biar grid ditengah */
+        }
+
+        
+        .feature-card {
+          display: flex;
+            flex-direction: column;
+            align-items: center; 
+            max-width: 200px;
+            min-height: 350px; 
+               background: #FFD1D1;
+    padding: 0rem 1rem 5rem;
+    border-radius: 100px 100px 100px 100px; /* oval di atas, rata di bawah */
+    text-align: center;
+    transition: all 0.3s ease;
+    animation: fadeInUp 0.8s ease-out;
+    position: relative;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-img {
+          object-fit: cover; 
+
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto ; /* jarak atas dan bawah */
+            border: 4px solid #fff; /* opsional: kasih border putih */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+/* 
+        .feature-card p {
+            color: var(--gray);
+        } */
+
+  
+
